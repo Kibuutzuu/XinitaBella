@@ -50,7 +50,7 @@ button:hover {
 }
 
 #imagen {
-    margin-top: 20px;
+    margin-top: 50px;
     display: flex;  /* Usamos flexbox para alinear las imágenes */
     justify-content: center;
     align-items: center;
@@ -94,6 +94,7 @@ footer {
         font-size: 1em;
     }
 }
+
 
 
 
