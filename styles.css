@@ -69,9 +69,11 @@ button:hover {
 }
 
 #imagen img {
-    width: 100%;         /* La imagen ocupa el 100% del ancho del contenedor */
-    max-height: 80vh;    /* Limita la altura de la imagen al 80% de la altura de la pantalla */
-    object-fit: contain; 
+    width: auto;
+    max-width: 50%;      /* Limita el ancho al 100% del contenedor */
+    height: auto;
+    max-height: 50vh;     /* Limita la altura al 80% de la pantalla */
+    object-fit: contain;  /* Mantiene la proporción de la imagen */
     border-radius: 10px;
 }
 
@@ -101,5 +103,6 @@ footer {
         font-size: 1em;
     }
 }
+
 
 
