@@ -57,17 +57,6 @@ button:hover {
     height: 100px;
 }
 
-.imagen-container {
-    width: 90%;          /* Ocupa el 90% del ancho de la pantalla */
-    max-width: 200px;    /* Limita el contenedor a 800px de ancho */
-    margin: 20px auto;   /* Centra el contenedor */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    overflow: hidden;    /* Asegura que la imagen no se desborde */
-}
-
 #imagen img {
     width: auto;
     max-width: 50%;      /* Limita el ancho al 100% del contenedor */
@@ -103,6 +92,7 @@ footer {
         font-size: 1em;
     }
 }
+
 
 
 
