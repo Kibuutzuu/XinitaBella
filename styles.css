@@ -51,20 +51,22 @@ button:hover {
 
 #imagen {
     margin-top: 20px;
-    display: none;
+    display: flex;  /* Usamos flexbox para alinear las imágenes */
     justify-content: center;
     align-items: center;
-    height: 100px;
+    flex-wrap: wrap; /* Permite que las imágenes se acomoden en varias filas */
+    gap: 20px; /* Espacio entre las imágenes */
 }
 
 #imagen img {
-    width: auto;
-    max-width: 50%;      /* Limita el ancho al 100% del contenedor */
-    height: auto;
-    max-height: 50vh;     /* Limita la altura al 80% de la pantalla */
-    object-fit: contain;  /* Mantiene la proporción de la imagen */
+    width: 250px;         /* Establece un ancho consistente */
+    height: auto;         /* Mantiene la relación de aspecto */
+    max-height: 300px;    /* Limita la altura de la imagen */
+    object-fit: contain;  /* Asegura que la imagen mantenga su proporción */
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil a las imágenes */
 }
+
 
 footer {
     margin-top: 40px;
@@ -92,6 +94,7 @@ footer {
         font-size: 1em;
     }
 }
+
 
 
 
