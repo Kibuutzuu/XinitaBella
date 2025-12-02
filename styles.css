@@ -50,7 +50,7 @@ button:hover {
 }
 
 #imagen {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;  /* Usamos flexbox para alinear las imágenes */
     justify-content: center;
     align-items: center;
@@ -59,9 +59,8 @@ button:hover {
 }
 
 #imagen img {
-    width: 250px;         /* Establece un ancho consistente */
+    width: 400px;         /* Establece un ancho consistente */
     height: auto;         /* Mantiene la relación de aspecto */
-    max-height: 300px;    /* Limita la altura de la imagen */
     object-fit: contain;  /* Asegura que la imagen mantenga su proporción */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil a las imágenes */
@@ -94,6 +93,7 @@ footer {
         font-size: 1em;
     }
 }
+
 
 
 
