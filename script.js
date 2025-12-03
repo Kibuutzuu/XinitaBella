@@ -10,7 +10,11 @@ document.getElementById("btn-imagen").addEventListener("click", function() {
         'IMG-20211223-WA0059.jpeg.jpg',
         'IMG_20211223_093928_384.jpg',
         'IMG_20211223_100856_114.jpg',
-        'IMG_20251202_113347.jpg'  
+        'IMG_20251202_113347.jpg',
+        'dis.jpg',
+        'ñau.jpg',
+        'youknow.jpg',
+        'random.jpg'
     ];
 
     const randomIndex = Math.floor(Math.random() * imagenes.length);
@@ -24,3 +28,4 @@ document.getElementById("btn-imagen").addEventListener("click", function() {
     imagenContainer.appendChild(imgElement);
     imagenContainer.style.display = "flex";
 });
+
